@@ -1,0 +1,36 @@
+ECE656 Project
+
+Submitted by:
+PARTH SHAH (20759634)
+PRIYA PATEL (20787652)
+PRATEETI DEB CHAUDHURI (20802005)
+
+Tools used:
+Front end : JavaX,Core java
+Back end: MySql
+
+Requirements:
+1) You need to have JavaEE environment on your machine to run this code
+2) MySQL
+
+Steps to run the application:
+1) Load the dataset (lahman2016.sql)
+2) Run the Procedure.sql file (Procedure.sql)
+3) Run Main_frame.java from src folder in Project folder to run the application. 
+
+Directory content:
+Project:
+-- Output_screenshot: screenshots of the application
+-- ece656.zip: contains the developed application GUI in JAVA
+-- lahman2016.sql: Lahman database SQL file
+-- primaryKeyAndForeignKey.sql: Defines primary key and foreign key for the database
+-- Procedure.sql: Data cleaning, Association rule, and Decision tree procedures
+-- Redme.txt: Readme file
+
+We have implemented two data mining algorithms:
+
+1) Association rules: We have created association rules for the various competitions the teams can win given that it has won a competition. 
+2) Decision Tree: We have evaluated various attributes to find out which attribute have high importance regarding finding out whether the player is inducted or not.
+
+
+The output_screenshot folder contains the screenshots of the application run over the different modules.
